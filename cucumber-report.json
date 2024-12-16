@@ -1,0 +1,376 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-go-to-formstab;user-navigate-to-the-forms-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User navigate to the forms page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1220970709
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2804190040
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2560580750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User located on the forms page",
+            "match": {
+              "location": "tests/steps/forms.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1947580332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User tapped on forms tab on the left menu",
+            "match": {
+              "location": "tests/steps/forms.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125336416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User see forms",
+            "match": {
+              "location": "tests/steps/forms.step.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3122166
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 102574665
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-go-to-formstab",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User go to FormsTab",
+    "tags": [],
+    "uri": "tests/features/formsPage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "input-information-on-the-page;user-fills-out-and-submits-the-form",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User fills out and submits the form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 624536666
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2809114625
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2345405000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on the forms page",
+            "match": {
+              "location": "tests/steps/inputForms.step.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3835665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User inputs \"Test\" as the first name",
+            "match": {
+              "location": "tests/steps/inputForms.step.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11559624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User inputs \"User\" as the last name",
+            "match": {
+              "location": "tests/steps/inputForms.step.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12995000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User inputs \"test.user@example.com\" as the email",
+            "match": {
+              "location": "tests/steps/inputForms.step.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5404624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User selects \"Male\" as the gender",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User inputs \"3753366331\" as the phone number",
+            "match": {
+              "location": "tests/steps/inputForms.step.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User inputs \"Mathematics\" as the subject",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User selects \"Sports, Reading\" as hobbies",
+            "match": {
+              "location": "tests/steps/inputForms.step.ts:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User inputs \"123 Elm Street\" as the current address",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User taps on the submit button",
+            "match": {
+              "location": "tests/steps/inputForms.step.ts:53"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User sees a modal view confirming submission",
+            "match": {
+              "location": "tests/steps/inputForms.step.ts:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 78558791
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "input-information-on-the-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Input information on the page",
+    "tags": [],
+    "uri": "tests/features/inputInformation.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-go-to-demoqa-site;user-tapped-on-forms-card",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User tapped on forms card",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 647491374
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3073119000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2567810875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigate to the main page on DemoQA site",
+            "match": {
+              "location": "tests/steps/testExamples.step.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16313750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User tapped on Forms card",
+            "match": {
+              "location": "tests/steps/testExamples.step.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 187721792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User move on the forms page",
+            "match": {
+              "location": "tests/steps/testExamples.step.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3562958
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 75330584
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-go-to-demoqa-site",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User go to DemoQA site",
+    "tags": [],
+    "uri": "tests/features/testExamples.feature"
+  }
+]
